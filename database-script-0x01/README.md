@@ -10,7 +10,7 @@ The schema is designed up to **Third Normal Form (3NF)** to avoid redundancy and
 
 > ERD illustrates the relationships between Users, Properties, Bookings, Payments, Reviews, and Messages.
 
-![Database ERD](/ERD/docs/erd.png)
+![Database ERD](/ERD/docs/Airbnb_ERD.png)
 
 ---
 
