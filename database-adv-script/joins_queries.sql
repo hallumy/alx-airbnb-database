@@ -15,6 +15,8 @@ LEFT JOIN
     Review
 ON
     Property.property_id = Review.property_id
+ORDER BY
+    Users.first_name
 
 SELECT
     *
