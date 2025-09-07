@@ -28,6 +28,7 @@ SELECT columns
 FROM table1
 LEFT JOIN table2
 ON table1.column = table2.column;
+ORDER BY Users.first_name
 
 ## **3. FULL OUTER JOIN **
 
@@ -41,3 +42,21 @@ SELECT columns
 FROM table1
 FULL OUTER JOIN table2
 ON table1.column = table2.column;
+
+# SQL Subqueries
+
+This guide explains how to use **subqueries** in SQL. A subquery is a query nested inside another query. Subqueries are commonly used to perform operations that require multiple steps or complex conditions.
+
+---
+
+## **1. Subquery Syntax**
+
+### **Basic Syntax**:
+
+SELECT columns
+FROM table
+WHERE column = (
+    SELECT column
+    FROM table
+    WHERE condition
+);
