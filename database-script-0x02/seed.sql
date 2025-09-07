@@ -1,5 +1,5 @@
 INSERT INTO Users
-    (user_id, first_name, last_name, email, password_hash, role, created_at)
+    (user_id, first_name, last_name, email, password_hash, phone_number, role, created_at)
     VALUES
     (1, 'John', 'Doe', 'johndoe@example.com', 'password', '1234567890', 'guest'), 
     (2, 'Bob', 'Smith', 'bob@example.com', 'hashed_pw_2', '0723456789', 'host'),
@@ -15,8 +15,8 @@ INSERT INTO Property
 INSERT INTO Booking
     (booking_id, property_id, user_id, start_date, end_date, total_price, status, created_at)
      VALUES
-     (1, 1, 1, '2025-09-10', '2025-09-15', 375.00, 'confirmed'),
-     (2, 2, 1, '2025-10-01', '2025-10-05', 480.00, 'pending');
+     (1, 1, 1, '2025-09-10', '2025-09-15', 37500, 'confirmed'),
+     (2, 2, 1, '2025-10-01', '2025-10-05', 48000, 'pending');
 
 INSERT INTO Payment 
     (payment_id, booking_id, amount, payment_method)
