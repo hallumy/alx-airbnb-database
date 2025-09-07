@@ -8,7 +8,7 @@ ON
 
 
 SELECT
-    Property.name, Property.description, Property.location, Review.rating, Review.comment
+    *
 FROM
     Property
 LEFT JOIN
